@@ -1,7 +1,11 @@
-
-  body {
+html{
+    overflow-x: hidden;
+}
+body {
       position: relative; 
-  }
+      width: 100%;
+      min-width: 100%;
+}
 /*Navbar*/
 .nav{
  background: transparent;
@@ -87,17 +91,20 @@ em{
 
 /*End of NavBar*/
 .after-nav{
-    background-image: url('../images/05.jpg');
+    background-image: url('../images/05.jpg') ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     height: auto;
-    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
     padding: 20%;
     text-align: center;
     font-family: "adobe-garamond-pro";
     color: #fff;
+
 }
 .project-bg{
       /*background-image: url('../images/04.jpg');*/
@@ -197,38 +204,6 @@ em{
   padding-top: 10px;
 }
 
-
-#container {
-  margin: 50px auto;
-}
-
-.thumbnail {
-  position: relative;
-}
-
-.thumbnail img {
-  display: block;
-}
-
-.thumbnail span {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: rgba(0,0,0,0.6);
-  color: #ddd;
-  padding: 20px;
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 85px;
-  font-size: 20px;
-}
-
-.thumbnail:hover span {
-  display: block;
-}
 /*images*/
 .carousel-inner>.item>a>img, 
 .carousel-inner>.item>img, 
