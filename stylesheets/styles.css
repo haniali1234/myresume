@@ -93,7 +93,7 @@ em{
 .after-nav{
     background-image: url('../images/05.jpg') ;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-size: cover;
     background-position: center;
     height: auto;
