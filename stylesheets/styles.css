@@ -1,11 +1,11 @@
 html{
     overflow-x: hidden;
 }
-  body {
+body {
       position: relative; 
       width: 100%;
       min-width: 100%;
-  }
+}
 /*Navbar*/
 .nav{
  background: transparent;
